@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/earthly/static/js/main.20491efc.js",
+    "index.html": "/earthly/index.html",
+    "main.20491efc.js.map": "/earthly/static/js/main.20491efc.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.20491efc.js"
+  ]
+}
