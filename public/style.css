@@ -1,0 +1,478 @@
+/* Reset default CSS */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling Navbar */
+#home {
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
+    margin-bottom: 0px;
+}
+
+.navbar {
+    color: black;
+    background: linear-gradient(-45deg, #7b4397, #dc2430);
+    font-family: cursive;
+    display: flex;
+    font-size: 2.1rem;
+    border-radius: 0px;
+}
+
+.navbar h1 {
+    font-weight: bold;
+    font-size: 4.5rem;
+}
+
+.navbar img {
+    width: 10rem;
+    margin: 1.8rem 1rem;
+}
+
+.navbar ul {
+    overflow: auto;
+    padding: 1rem;
+}
+
+.navbar li {
+    list-style: none;
+    padding: 2px;
+    margin: 0.35rem auto;
+    display: inline-block;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.intro {
+    /* margin: 0 1rem; */
+    /* padding: 1rem; */
+    width: 35%;
+}
+
+.navmenu {
+    margin: auto;
+}
+
+.navmenu li {
+    display: inline;
+    padding: 0.2rem 0.7rem;
+}
+
+.navmenu li a:hover {
+    color: white;
+    border: 1px solid white;
+    border-radius: 25px;
+    background-color: #000;
+    padding: 0.2rem 0.71rem;
+}
+
+#getintouch {
+    border: 0.5px solid white;
+    border-radius: 25px;
+    margin-left: 2px;
+}
+
+.cart {
+    margin: auto;
+}
+
+.cart img {
+    width: 5.5rem;
+    margin: 1rem 2rem;
+}
+
+
+/* Stylink carousel */
+#cor {
+    width: 100%;
+    /* height: 60rem; */
+    margin: 0;
+    padding: 0;
+    z-index: -1;
+}
+
+#cor img {
+    width: 100%;
+    height: 55rem;
+}
+
+.carousel-content {
+    position: absolute;
+    top: 15rem;
+    margin: auto 30rem;
+    /* left: 25%; */
+    text-align: center;
+    font-size: 8rem;
+    text-align: center;
+    z-index: 20;
+    font-weight: bold;
+    color: white;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+}
+
+.f1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 10rem;
+    color: rgb(217, 250, 217);
+    text-shadow: 0.5rem 0.5rem #000;
+}
+
+.f2 {
+    font-family: cursive;
+    font-size: 7rem;
+    color: rgb(217, 250, 217);
+}
+
+#c2 {
+    top: 8rem;
+    /* left: 35%; */
+    justify-content: center;
+}
+
+#c3 {
+    top: 5rem;
+    margin: auto 10%;
+    justify-content: center;
+
+}
+
+/* Styling Kit  */
+#kit {
+    /* display: grid; */
+    /* grid-gap: 2rem 2rem; */
+    width: 100.9%;
+    padding: 4rem;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    padding: 2rem;
+    margin: 1rem;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* margin-bottom: 5rem; */
+    border-radius: 20px;
+    /* border: 1px solid black; */
+}
+
+.card img {
+    width: 99%;
+    flex-wrap: wrap;
+    /* border: 1px solid black; */
+    border-radius: 20px;
+}
+
+/* .card img:hover {
+    width: 80%;
+} */
+
+.card:hover {
+    border: 1px solid black;
+    width: 90%;
+    opacity: 0.75;
+    color: white;
+}
+
+.card-title {
+    font-size: 2.5rem;
+}
+
+.card-body {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 800px) {
+    .row {
+        flex: 100%;
+        max-width: 100%;
+    }
+    #home{
+        background-color: gold;
+    }
+
+    .carousel-content {
+
+        top: 20rem;
+        left: 15%;
+        text-align: center;
+    }
+}
+
+
+
+
+/* Styling About Us section */
+#about {
+    margin-bottom: 0px;
+}
+
+.about {
+    color: rgb(247, 247, 203);
+    font-family: 'Noto Serif Ahom', serif;
+    background-color: rgb(28, 23, 23);
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    padding: 3rem 20rem;
+    padding-bottom: 8rem;
+    font-size: large;
+    margin-bottom: 0px;
+}
+
+.about h1 {
+    color: greenyellow;
+    font-weight: bold;
+    margin: 2rem;
+    margin-bottom: 3rem;
+    padding: 2rem;
+    font-size: 5rem;
+}
+
+
+/* Styling grad section  */
+#grad1 {
+    font-family: 'Itim', cursive;
+    text-align: center;
+    margin: 0;
+    background: radial-gradient(#f08767, #dc6a96, #4ac4f0, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 10s ease-out infinite;
+}
+
+#gradh1 {
+    padding: 5rem;
+    margin: 0 auto;
+}
+
+.gradBox {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.graditem {
+    margin: 0;
+}
+
+.data {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.graditem p {
+    padding: 8rem;
+}
+
+.graditem img {
+    width: 90%;
+    padding: 2rem;
+    margin: 2rem;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+
+.gradimage {
+    width: fit-content;
+
+}
+
+.data {
+    width: fit-content;
+}
+
+@media screen and (max-width: 1000px) {
+    .graditem p {
+        padding: 5rem;
+    }
+
+    .graditem img {
+        width: 30rem;
+        /* height: 30rem; */
+        padding: 2rem;
+        margin: 2rem;
+    }
+}
+
+
+/* Designing Contact Us form */
+.contact {
+    display: flex;
+    margin: auto;
+    padding: 0%;
+}
+
+.contactimg {
+    padding: 1rem 1rem;
+    /* width: 50%; */
+}
+
+.contactfrm {
+    padding: 10rem 5rem;
+    /* padding-right: 20rem; */
+    font-family: 'PT Serif', serif;
+}
+
+.contactfrm h1 {
+    text-align: center;
+    font-size: 5rem;
+}
+
+.contactfrm p {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.form {
+    background-color: #d5f7e4;
+    color: #008000;
+    font-family: 'Kaushan Script', cursive;
+    border: 0.5px solid gainsboro;
+    border-radius: 20px;
+    padding: 2rem 4rem;
+    padding-bottom: 5rem;
+}
+
+.form h2 {
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+.message {
+    margin-bottom: 1rem;
+}
+
+.fc {
+    margin: 0.25rem 0;
+    background-color: gray;
+}
+
+
+/* Designing Map part */
+.map {
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    border: 1px solid whitesmoke;
+}
+
+
+/* Designing Club */
+.club {
+    text-align: center;
+    font-family: 'Noto Serif Ahom', serif;
+    padding: 4rem;
+    padding-top: 3rem;
+}
+
+.club h1 {
+    font-family: 'Libre Baskerville', serif;
+    padding: 1rem;
+
+}
+
+.club_input {
+    display: flex;
+    width: 50%;
+    margin: 3rem auto;
+    margin-top: 1rem;
+}
+
+
+/* Designing footer */
+footer {
+    margin: 0px;
+    height: 15rem;
+    background: linear-gradient(-60deg, rgb(20, 36, 50) 11.8%, rgb(44, 74, 101) 51.8%, rgb(94, 110, 125) 83.8%);
+}
+
+footer h3 {
+    font-size: 3.2rem;
+    color: rgb(124, 123, 128);
+    font-family: 'Dancing Script', cursive;
+    float: right;
+    margin-right: 25rem;
+}
+
+/* Footer meadia icons */
+.fa {
+    margin: 0.5rem;
+    padding: 8px;
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 100%;
+    color: black;
+    background: white;
+}
+
+.fa:hover {
+    text-decoration: none;
+    background: black;
+    color: white;
+}
+
+.fa-flickr {
+    color: green;
+    margin: auto 2px;
+}
+
+/* Footer language selector */
+#language {
+    margin: 0.5rem;
+    padding: 0.6rem;
+    color: #000;
+    border: 1px solid;
+    border-radius: 6px;
+
+}
+
+#media {
+    position: relative;
+    left: 2.5rem;
+    bottom: -9rem;
+}
+
+/* Chat Bot */
+#chat {
+    font-size: 2.3rem;
+    font-family: 'Dancing Script', cursive;
+    position: fixed;
+    bottom: 3rem;
+    right: 3rem;
+    padding: 0.8rem 2.7rem;
+    border: 0.5px solid gray;
+    color: white;
+    background-color: green;
+    border-radius: 30px;
+    /* border-bottom-right-radius: 0px; */
+}
